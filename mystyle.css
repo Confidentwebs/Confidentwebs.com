@@ -1,0 +1,190 @@
+body{
+    background-color: black;
+    font: 18px/1.5;
+
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+#branding{
+    letter-spacing: 10px;
+    color: white;
+}
+#build{
+    font-size: 55px;
+}
+#with{
+    font-size: 22px;
+}
+#confidence{
+    font-size: 50px;
+}
+
+.container{
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.button_1{
+    height: 30px;
+    background: rgb(236, 65, 93);
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+header{
+    background: black;
+    color: rgb(232, 232, 253);
+    padding-top: 10px;
+    height: 150px;
+    border-bottom: whitesmoke 4px solid;
+}
+
+header a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 200px;
+
+}
+
+header #branding h1{
+    margin: 0;
+
+}
+
+nav{
+    margin-top: 10px;
+    float: right;
+}
+header li{
+    float: left;
+    display: inline;
+   padding: 0 20px 0 20px;
+}
+
+header .highlight, header .current a{
+    color: rgb(68, 68, 192);
+    font-weight: bold;
+}
+
+header a:hover{
+    color: rgb(236, 65, 93);
+    font-weight: bold;
+}
+
+header .container .current a{
+    color: rgb(236, 65, 93);
+    font-weight: bold;
+}
+
+header .highlight, header .current a:hover{
+    color: whitesmoke;
+}
+
+#showcase{
+    min-height: 380px;
+    background:url('showc.jpeg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+
+    opacity: 500%;
+}
+
+#showcase h1{   margin-top: 60px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p{
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+#newsletter h1{
+    float: left;
+
+}
+
+#newsletter form{
+    float: right;
+    margin-top: 15px;
+}
+
+#newsletter input[type="email"] {
+    padding: 5px;
+    height: 30px;
+    width: 200px;
+    border-spacing: 0;
+    color: purple;
+}
+
+#newsletter{
+    padding: 15px;
+    color: whitesmoke;
+    background-color: black;
+    padding: 5px;
+    min-height: 5px;
+    border-bottom: rgb(200, 200, 247) 2px solid;
+}
+
+.button_1:hover {
+    background: plum;
+    color: white;
+}
+
+::placeholder{
+    color: rgb(136, 68, 192);
+}
+
+#tag{
+
+    font-weight: lighter;
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font: sans-serif;
+}
+article#main-col{
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 1px;
+    margin-bottom: 5px;
+    background: whitesmoke;
+    margin-top: 10px;
+    padding-top: 0px;
+    font: 16px/1.5 arial;
+}
+h2{
+    text-align: center;
+    color: rgba(34, 0, 128, 0.993);
+}
+
+.page-title{
+    font-size: 30px;
+}
+
+footer{
+    text-align: center;
+    background-color: rgba(39, 1, 143, 0.993);
+    padding: 10px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+
+
+
